@@ -1,0 +1,52 @@
+.nav{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(198, 153, 21);
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* @keyframes <animation-name>{
+    properties
+}
+    */
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.content{
+
+    /* animation: slideInLeft 2s ease-out 0ms 1 normal none; */
+
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out ;
+    animation-delay: 0ms;
+    animation-iteration-count:1;
+    animation-direction:normal ;
+    animation-fill-mode: forwards; 
+
+    /* animation-fill-mode: forwards;
+    transform: translateX(-150px);*/
+}

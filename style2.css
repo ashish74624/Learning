@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(198, 153, 21);
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    font-size: 2rem;
+    font-weight:700;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 10px solid palevioletred;
+    background-color: pink;
+    color: palevioletred;
+    margin: 5rem;
+
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 5ms; */
+    /* transition: transform 0.3s ease-in-out 0ms,
+    background-color 0.3s , color 0.3s ease-in 
+    ; */
+
+    /* transition: all 0.3s ,color 1s ease-in-out; */
+    transition: all 0.3s;
+
+}
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: palevioletred;
+    color: pink;
+}
