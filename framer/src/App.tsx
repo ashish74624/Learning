@@ -7,6 +7,8 @@ import Gesture from "./pages/Gesture"
 import Staggered from "./pages/Staggered"
 import Layout from "./pages/Layout"
 import StaggerChildren from "./pages/StaggerChildren"
+import From from "./pages/From"
+import Times from "./pages/Times"
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
           <Route path='/Staggered' element={<Staggered/>}/>
           <Route path='/layout' element={<Layout/>}/>
           <Route path='/staggerChildren' element={<StaggerChildren/>}/>
+          <Route path='/from' element={<From/>}/>
+          <Route path='/times' element={<Times/>}/>
         </Routes>
       </Router>
     </>

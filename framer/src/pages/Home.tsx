@@ -8,6 +8,8 @@ export default function Home() {
       <Link className='text-white text-2xl hover:underline' to={'/Staggered'}>Staggered  Animations</Link>
       <Link className='text-white text-2xl hover:underline' to={'/layout'}>Layout Animations</Link>
       <Link className='text-white text-2xl hover:underline' to={'/staggerChildren'}>staggerChildrens Animations</Link>
+      <Link className='text-white text-2xl hover:underline' to={'/from'}>From Animations</Link>
+      <Link className='text-white text-2xl hover:underline' to={'/times'}>Times Animations</Link>
     </main>
   )
 }

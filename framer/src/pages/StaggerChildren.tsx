@@ -22,7 +22,7 @@ export default function StaggerChildren() {
 
   
   return (
-    <main  className="bg-[#242424] h-[92vh] w-screen overflow-x-hidden overflow-y-scroll text-white text-2xl flex flex-col justify-center items-center">
+    <main className="bg-[#242424] h-[92vh] w-screen overflow-x-hidden overflow-y-scroll text-white text-2xl flex flex-col justify-center items-center">
       <motion.ol
       className="w-max px-2 text-black h-max py-2 bg-white rounded-lg"
         variants={container}
